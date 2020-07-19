@@ -46,6 +46,12 @@ gem 'mini_magick', '~> 4.10', '>= 4.10.1'
 # A configurable and documented Rails view helper for adding gravatars into your Rails application.
 gem 'gravatar_image_tag', '~> 1.2'
 
+# Pg is the Ruby interface to the {PostgreSQL RDBMS}
+gem 'pg', '~> 1.2', '>= 1.2.3'
+
+# Simple, Heroku-friendly Rails app configuration using ENV and a single YAML file
+gem 'figaro', '~> 1.2'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
