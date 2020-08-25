@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project also uses the basic CRUD principles for creating, reading, updating and deleting blog posts and comments. 
 
-Things you may want to cover:
+Postgresql is used as database and bulma for UI part.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Usage: This app can be used to put up questions and answers them in your organization. I have temporarily deployed it on Heroku at https://blog-project-1.herokuapp.com/.
